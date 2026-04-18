@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.8,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Occasional medium pace",
+    "price": 1500000,
+    "playerImg": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/kohli231007.jpg"
+  },
+  {
+    "id": 2,
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 9.5,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 1400000,
+    "playerImg": "https://staticg.sportskeeda.com/editor/2022/10/c5105-16663282609065-1920.jpg"
+  },
+  {
+    "id": 3,
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 9.3,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Off spin (rare)",
+    "price": 1200000,
+    "playerImg": "https://media.crictracker.com/web/large/media/attachments/1739273336994_Kane-Williamson-(2).webp"
+  },
+  {
+    "id": 4,
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-rounder",
+    "rating": 9.6,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1600000,
+    "playerImg": "https://i.dawn.com/primary/2022/11/6371c8bbed80d.jpg"
+  },
+  {
+    "id": 5,
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 9.7,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Leg spin",
+    "price": 1300000,
+    "playerImg": "https://c.ndtvimg.com/2025-09/1un384ug_rashid-khan-afp_625x300_02_September_25.jpg"
+  },
+  {
+    "id": 6,
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "rating": 9.9,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1550000,
+    "playerImg": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1736582383341_Jasprit_Bumrah.jpg"
+  },
+  {
+    "id": 7,
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-rounder",
+    "rating": 9.4,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 1450000,
+    "playerImg": "https://imgk.timesnownews.com/story/1563242981-West-Indies-Bangladeshs-Shakib-Al-Hasan-celebrates-reaching-his-century-AP.jpg"
+  },
+  {
+    "id": 8,
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 9.2,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Occasional leg spin",
+    "price": 1350000,
+    "playerImg": "https://media.crictracker.com/media/featureimage/2017/09/David-Warner-4.jpg"
+  },
+  {
+    "id": 9,
+    "playerName": "Shaheen Afridi",
+    "playerCountry": "Pakistan",
+    "playerType": "Bowler",
+    "rating": 9.6,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 1500000,
+    "playerImg": "https://www.geo.tv/assets/uploads/updates/2021-10-25/378103_8814169_updates.jpg"
+  },
+  {
+    "id": 10,
+    "playerName": "Hardik Pandya",
+    "playerCountry": "India",
+    "playerType": "All-rounder",
+    "rating": 9.1,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1250000,
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8frPCshlwa_jIw9_fRxKl4qC_vo7hYxq9Q&s"
+  }
+]
