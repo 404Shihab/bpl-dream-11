@@ -11,6 +11,7 @@ const fetchPlayer = async() =>{
 
 function App() {
   const playerPromise = fetchPlayer();
+
   return (
     <>
     <NavBar></NavBar>
