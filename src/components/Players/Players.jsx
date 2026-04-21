@@ -8,6 +8,8 @@ const Players = ({playerPromise , setCoin, coin}) => {
     // console.log(players);
 
     const [selectedType, setSelectedType] = useState("available");
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
+
 
     return (
         <div className='container mx-auto my-[60px]'>
@@ -23,7 +25,7 @@ const Players = ({playerPromise , setCoin, coin}) => {
                 </div>
             </div>
 
-            {selectedType==="available" ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>}
+            {selectedType==="available" ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} ></AvailablePlayers> : < SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>}
         </div>
     );
 };
