@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaUser, FaFlag } from "react-icons/fa6";
+import { toast } from 'react-toastify';
 
 const Card = ({player, setCoin, coin,setSelectedPlayers, selectedPlayers}) => {
     const [isSelected, setIsSelected] = useState(false);
@@ -10,11 +11,11 @@ const Card = ({player, setCoin, coin,setSelectedPlayers, selectedPlayers}) => {
             if(newCoin >=0 ){
                 setCoin(coin - player.price);
             }else{
-                alert("Not enough coin to purchase this player")
+                toast.error("Not enough coin to purchase this player")
                 return;
             }
             
-            alert(`${player.playerName} is selected`);
+            toast.success(`${player.playerName} is selected`);
             setIsSelected(true);
             setSelectedPlayers([...selectedPlayers,player]);
 
@@ -27,7 +28,7 @@ const Card = ({player, setCoin, coin,setSelectedPlayers, selectedPlayers}) => {
                 className="h-full w-full object-cover"
                 key={player.id}
                 src={player.playerImg}
-                alt="Shoes"
+                alt={player.playerName}
               />
             </figure>
             <div className="card-body">
@@ -39,7 +40,7 @@ const Card = ({player, setCoin, coin,setSelectedPlayers, selectedPlayers}) => {
                   <FaFlag />
                   <p>{player.playerCountry}</p>
                 </div>
-                <button className="btn btn-outline btn-secondary">{player.playerType}</button>
+                <button className="btn btn-soft btn-secondary">{player.playerType}</button>
               </div>
               <div className="divider"></div>
 
@@ -53,7 +54,7 @@ const Card = ({player, setCoin, coin,setSelectedPlayers, selectedPlayers}) => {
                 <button
                 onClick={handleChoosePlayer}
                 disabled={isSelected ? true : false}
-                 className="btn">{isSelected=== true ? "Selected":  "Choose Player"}</button>
+                 className="btn btn-outline btn-primary">{isSelected=== true ? "Selected":  "Choose Player"}</button>
               </div>
             </div>
           </div>

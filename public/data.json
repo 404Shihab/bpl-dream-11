@@ -108,5 +108,116 @@
     "bowlingStyle": "Right-arm fast-medium",
     "price": 12500,
     "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8frPCshlwa_jIw9_fRxKl4qC_vo7hYxq9Q&s"
+  },
+  {
+    "id": 11,
+    "playerName": "Steve Smith",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 9.4,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Leg spin",
+    "price": 14500,
+    "playerImg": "https://i.guim.co.uk/img/media/2dc55fb0a0a82307cb6e9e3a23a241aa3b4a7006/0_26_2284_1371/master/2284.jpg?width=620&dpr=2&s=none&crop=none"
+  },
+  {
+    "id": 12,
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 9.5,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 13800,
+    "playerImg": "https://media.crictracker.com/media/featureimage/2017/04/Trent-Boult-2.jpg"
+  },
+  {
+    "id": 13,
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerType": "Batsman",
+    "rating": 9.1,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": 12500,
+    "playerImg": "https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2023/11/01/4075826-630670670.jpg?itok=25uYf_Lu"
+  },
+  {
+    "id": 14,
+    "playerName": "Glenn Maxwell",
+    "playerCountry": "Australia",
+    "playerType": "All-rounder",
+    "rating": 9.3,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Off break",
+    "price": 14200,
+    "playerImg": "https://static.independent.co.uk/2023/11/07/17/07-699f9620f4254f2e9aae0f8fe9e580ab.jpg"
+  },
+  {
+    "id": 15,
+    "playerName": "Joe Root",
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 9.4,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Off break",
+    "price": 13000,
+    "playerImg": "https://media.crictracker.com/media/attachments/1748809299614_Joe-Root.jpeg"
+  },
+  {
+    "id": 16,
+    "playerName": "Kagiso Rabada",
+    "playerCountry": "South Africa",
+    "playerType": "Bowler",
+    "rating": 9.6,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 14800,
+    "playerImg": "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2019/06/Kagiso-Rabada.jpg"
+  },
+  {
+    "id": 17,
+    "playerName": "Mitchell Santner",
+    "playerCountry": "New Zealand",
+    "playerType": "All-rounder",
+    "rating": 8.8,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 11500,
+    "playerImg": "https://ichef.bbci.co.uk/ace/standard/566/cpsprodpb/d3b9/live/ef8bf600-e3a9-11ef-8450-ff58a15d40df.jpg"
+  },
+  {
+    "id": 18,
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 9.5,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 15200,
+    "playerImg": "https://c.ndtvimg.com/2022-11/eqod4ll8_jos-buttler-vs-india-afp_625x300_10_November_22.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675"
+  },
+  {
+  "id": 19,
+  "playerName": "Mitchell Starc",
+  "playerCountry": "Australia",
+  "playerType": "Bowler",
+  "rating": 9.7,
+  "batingStyle": "Left-hand bat",
+  "bowlingStyle": "Left-arm fast",
+  "price": 16500,
+  "playerImg": "https://static01.nyt.com/athletic/uploads/wp/2025/12/06044242/GettyImages-2249881823-scaled.jpg"
+  },
+  {
+    "id": 20,
+    "playerName": "Wanindu Hasaranga",
+    "playerCountry": "Sri Lanka",
+    "playerType": "All-rounder",
+    "rating": 9.2,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Leg break",
+    "price": 13500,
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqJlt5mjMKIDbKxPF7SjfywkX4h1jhLdqXvA&s"
   }
+
 ]
